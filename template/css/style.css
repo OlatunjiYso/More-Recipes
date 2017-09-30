@@ -1,0 +1,45 @@
+.card-image img{
+	max-height: 200px;
+  max-width: 200px;
+}
+.foodButton{
+	padding-right: : 5px;
+	margin: 1px
+}
+
+.foodTitle{
+	padding : 1px;
+	margin: 1px;
+	width: auto;
+}
+
+.redBorder{
+    border: 1px solid red;
+}
+.userinfo{
+    padding: 5px;
+		margin: 3px;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/choco.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    opacity: 0.8;
+    filter:alpha(opacity=80);
+}
+
+body {
+     display: flex;
+     min-height: 100vh;
+     flex-direction: column;
+ }
+ main {
+     flex: 1 0 auto;
+ }
