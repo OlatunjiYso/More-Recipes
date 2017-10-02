@@ -3,12 +3,8 @@
   "version": "1.0.0",
   "description": "more recipe",
   "main": "index.js",
-  "scripts":{
-    "build": "babel src -d dist"
-  },
   "scripts": {
    "test": "mocha test/test --compilers js:babel-register",
-    "build" : "babel --presets es2015 src -d dist",
     "start": "nodemon index.js --exec babel-node --presets es2015,stage-2"
   },
   "author": "olatunji",
