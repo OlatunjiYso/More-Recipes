@@ -2,5 +2,12 @@ language: node_js
 
 node_js:
   - "6.11"
+
+before_script:
+  - npm install
+
+cache_directories:
+  - node_modules
+
 script:
   - npm test
